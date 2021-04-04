@@ -27,22 +27,24 @@ AIWolfKtでは、人狼知能にKotlinで参加することを目的として、
 
 ### `tk.yabpaseri.aiwolfkt.sample.lib.AbstractRoleAssignPlayerKt`
 
-`org.aiwolf.sample.lib.AbstractRoleAssignPlayer`が扱うPlayerをPlayerKtに置き換えたものです。初期設定として、`org.aiwolf.sample.player`の各プレイヤが動く点も同じです。
+`org.aiwolf.sample.lib.AbstractRoleAssignPlayer`が扱う`Player`を`PlayerKt`に置き換えたものです。初期設定として、`org.aiwolf.sample.player`の各プレイヤが動く点も同じです。
 
 
 
 ### `tk.yabpaseri.aiwolfkt.sample.lib.PlayerKtConverter`
 
-PlayerをPlayerKtとして動かすためのクラスです。`AbstractRoleAssignPlayerKt`がサンプルエージェントを動かすためにも使用しています。Playerを実装したクラスを受け取り、そのインスタンスを生成して動かします。
+`Player`を`PlayerKt`として動かすためのクラスです。`AbstractRoleAssignPlayerKt`がサンプルエージェントを動かすためにも使用しています。`Player`を実装したクラスを受け取り、そのインスタンスを生成して動かします。
 
 
 
 ## 生成環境
 
 MacBook Air (Early 2015) 1.6GHz デュアルコアIntel Core i5
+
 macOS Big Sur 11.1
 
 IntelliJ IDEA CE 2020.3.3
+
 Kotlin Plugin 203-1.4.32-release-IJ7148.5
 
 
